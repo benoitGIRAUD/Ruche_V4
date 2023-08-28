@@ -3,4 +3,6 @@
   (lib (name BeeWeight_MKRWAN-rescue)(type Legacy)(uri ${KIPRJMOD}/BeeWeight_MKRWAN-rescue.lib)(options "")(descr ""))
   (lib (name SHT30-DIS-B)(type Legacy)(uri //Nas-be/adtp-be/Hardware/Projet_Poids_CAPAZ_V4/Libs/SHT30-DIS-B/SHT30-DIS-B.lib)(options "")(descr ""))
   (lib (name 694103107102)(type Legacy)(uri //Nas-be/adtp-be/Hardware/Projet_Poids_CAPAZ_V4/Libs/694103107102/694103107102.lib)(options "")(descr ""))
+  (lib (name SSW-120-01-X-S)(type Legacy)(uri "D:/Documents/ADTP/ADTP Projet/Git/Ruche_V4/V-Heltec/Stick Lite V3/SSW-120-01-X-S/SSW-120-01-X-S.lib")(options "")(descr ""))
+  (lib (name LDL1117S33R)(type Legacy)(uri "D:/Documents/ADTP/ADTP Projet/Git/Ruche_V4/V-Heltec/Stick Lite V3/LDL1117S33R/LDL1117S33R.lib")(options "")(descr ""))
 )
