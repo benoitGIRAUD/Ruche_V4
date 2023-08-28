@@ -1,0 +1,52 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# 694103107102
+#
+DEF 694103107102 J 0 40 Y N 1 L N
+F0 "J" 0 100 50 H V L BNN
+F1 "694103107102" -200 -300 50 H V L BNN
+F2 "694103107102" 0 0 50 H I L BNN
+F3 "" 0 0 50 H I L BNN
+F4 "Wurth Elektronik" 0 0 50 H I L BNN "MF"
+F5 "\nPower Barrel Connector Jack 1.35mm ID (0.053), 3.50mm OD (0.138) Surface Mount, Right Angle\n" 0 0 50 H I L BNN "Description"
+F6 "None" 0 0 50 H I L BNN "Package"
+F7 "SMT" 0 0 50 H I L BNN "MOUNT"
+F8 "5A" 0 0 50 H I L BNN "IR"
+F9 "694103107102" 0 0 50 H I L BNN "VALUE"
+F10 "In Stock" 0 0 50 H I L BNN "Availability"
+F11 "https://www.snapeda.com/parts/694103107102/Wurth+Elektronik/view-part/?ref=snap" 0 0 50 H I L BNN "SnapEDA_Link"
+F12 "https://www.we-online.com/catalog/datasheet/694103107102.pdf" 0 0 50 H I L BNN "DATASHEET-URL"
+F13 "694103107102" 0 0 50 H I L BNN "MP"
+F14 "18V(AC)" 0 0 50 H I L BNN "WORKING-VOLTAGE"
+F15 "694103107102" 0 0 50 H I L BNN "PART-NUMBER"
+F16 "Right Angled" 0 0 50 H I L BNN "TYPE"
+F17 "None" 0 0 50 H I L BNN "Price"
+F18 "https://www.snapeda.com/parts/694103107102/Wurth+Elektronik/view-part/?ref=eda" 0 0 50 H I L BNN "Check_prices"
+DRAW
+A -125 0 50 899 2700 0 0 6 N -125 -50 -125 50
+P 2 0 0 6 -125 50 50 50 N
+P 2 0 0 6 50 50 50 -50 N
+P 2 0 0 6 50 -50 -125 -50 N
+P 2 0 0 6 50 -50 50 -75 N
+P 2 0 0 6 50 -75 100 -75 N
+P 2 0 0 6 100 -75 100 75 N
+P 2 0 0 6 100 75 50 75 N
+P 2 0 0 6 50 75 50 50 N
+P 2 0 0 6 0 -200 -125 -200 N
+P 2 0 0 6 -125 -200 -150 -150 N
+P 2 0 0 6 -150 -150 -175 -200 N
+P 2 0 0 6 0 -100 0 -200 N
+P 2 0 0 6 100 -200 0 -200 N
+P 2 0 0 6 0 -100 100 -100 N
+P 4 0 0 6 0 -200 -20 -150 20 -150 0 -200 f
+X ~ 1 200 0 100 L 40 40 0 0 P 
+X ~ A1 200 0 100 L 40 40 0 0 P 
+X ~ 2 200 -200 100 L 40 40 0 0 P 
+X ~ 3 200 -100 100 L 40 40 0 0 P 
+ENDDRAW
+ENDDEF
+#
+# End Library

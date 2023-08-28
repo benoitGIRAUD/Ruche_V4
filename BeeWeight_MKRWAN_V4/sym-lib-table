@@ -1,0 +1,6 @@
+(sym_lib_table
+  (lib (name "Wurth_Terminal_Blocks_(rev17a)")(type Legacy)(uri "D:/Documents/Univ-SMB/M2/ETRS001- Application syst embarquée en télécoms/KiCad/Wurth libraries/TerminalBlocks (rev17a)/Wurth_Terminal_Blocks (rev17a).lib")(options "")(descr ""))
+  (lib (name BeeWeight_MKRWAN-rescue)(type Legacy)(uri ${KIPRJMOD}/BeeWeight_MKRWAN-rescue.lib)(options "")(descr ""))
+  (lib (name SHT30-DIS-B)(type Legacy)(uri //Nas-be/adtp-be/Hardware/Projet_Poids_CAPAZ_V4/Libs/SHT30-DIS-B/SHT30-DIS-B.lib)(options "")(descr ""))
+  (lib (name 694103107102)(type Legacy)(uri //Nas-be/adtp-be/Hardware/Projet_Poids_CAPAZ_V4/Libs/694103107102/694103107102.lib)(options "")(descr ""))
+)

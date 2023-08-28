@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name SHT30-DIS-B)(type KiCad)(uri "D:/Documents/ADTP/ADTP Projet/Git/SHT30-DIS-B")(options "")(descr ""))
+  (lib (name "Jack Low")(type KiCad)(uri //Nas-be/adtp-be/Hardware/Projet_Poids_CAPAZ_V4/Libs/694103107102/)(options "")(descr ""))
+)
