@@ -1,0 +1,100 @@
+
+(rules PCB BeeWeight_MKRWAN_V4
+  (snap_angle 
+    fortyfive_degree
+  )
+  (autoroute_settings
+    (fanout off)
+    (autoroute on)
+    (postroute on)
+    (vias on)
+    (via_costs 50)
+    (plane_via_costs 5)
+    (start_ripup_costs 100)
+    (start_pass_no 1674)
+    (layer_rule Front
+      (active on)
+      (preferred_direction vertical)
+      (preferred_direction_trace_costs 1.8)
+      (against_preferred_direction_trace_costs 3.6)
+    )
+    (layer_rule In1.Cu
+      (active off)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 1.6)
+    )
+    (layer_rule In2.Cu
+      (active off)
+      (preferred_direction vertical)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 2.8)
+    )
+    (layer_rule Back
+      (active on)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.8)
+      (against_preferred_direction_trace_costs 2.4)
+    )
+  )
+  (rule
+    (width 127.0)
+    (clear 127.2)
+    (clear 63.5 (type smd_to_turn_gap))
+    (clear 31.8 (type smd_smd))
+  )
+  (padstack "Via[0-3]_600:300_um"
+    (shape
+      (circle Front 600.0 0.0 0.0)
+    )
+    (shape
+      (circle In1.Cu 600.0 0.0 0.0)
+    )
+    (shape
+      (circle In2.Cu 600.0 0.0 0.0)
+    )
+    (shape
+      (circle Back 600.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (via 
+    "Via[0-3]_600:300_um" "Via[0-3]_600:300_um" default
+  )
+  (via 
+    "Via[0-3]_600:300_um-kicad_default" "Via[0-3]_600:300_um" "kicad_default"
+  )
+  (via_rule
+    default "Via[0-3]_600:300_um"
+  )
+  (via_rule
+    "kicad_default" "Via[0-3]_600:300_um-kicad_default"
+  )
+  (class default
+    (clearance_class default)
+    (via_rule default)
+    (rule
+      (width 127.0)
+    )
+    (circuit 
+      (use_layer Front In1.Cu In2.Cu Back)
+    )
+  )
+  (class "kicad_default"
+    GND /AIN1 /AIN4 /AIN6 /AIN2 /AIN0 /AIN5 /AIN7
+    /AIN3 /3V3 "Net-(C14-Pad2)" "Net-(C15-Pad1)" "/GND_LowPower" "Net-(J10-Pad3)" "Net-(J1-Pad01)" "Net-(J1-Pad02)"
+    "Net-(J1-Pad04)" "Net-(J1-Pad05)" "Net-(J1-Pad06)" "Net-(J1-Pad13)" "Net-(J1-Pad14)" "Net-(J1-Pad15)" "Net-(J1-Pad16)" "Net-(J1-Pad17)"
+    "Net-(J1-Pad18)" "Net-(J1-Pad19)" "Net-(J1-Pad20)" "Net-(J6-Pad04)" "Net-(J6-Pad05)" "Net-(J6-Pad06)" "Net-(J6-Pad07)" "Net-(J6-Pad08)"
+    "Net-(J6-Pad13)" "Net-(J6-Pad14)" "Net-(J6-Pad15)" "Net-(J6-Pad16)" "Net-(J6-Pad18)" "Net-(J6-Pad19)" /12V "/VDD_5V"
+    "/IO4_VBAT_12V" "/IO34_CS" "/IO35_MOSI" "/IO36_SCLK" "/IO37_MISO" "/IO38_PDWN" "/IO39_DRDY" "/IO18_SCL"
+    "/IO21_SHT_RST" "/IO19_SHT_ALERT" "/IO17_SDA" "/IO7_CMD_MOS"
+    (clearance_class "kicad_default")
+    (via_rule kicad_default)
+    (rule
+      (width 127.0)
+    )
+    (circuit 
+      (use_layer Front In1.Cu In2.Cu Back)
+    )
+  )
+)
